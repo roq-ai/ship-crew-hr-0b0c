@@ -1,0 +1,2322 @@
+[
+  {
+    "log": [
+      {
+        "id": "6d0d1459-432d-487b-a0e6-64ffa919f25e",
+        "action": "login",
+        "description": "User logged in successfully",
+        "created_at": "2023-10-05T06:11:23.303Z",
+        "updated_at": "2023-10-04T12:44:19.294Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d636d94-dc0c-46e8-9640-88d2cc2cbaca",
+        "action": "create",
+        "description": "New record created",
+        "created_at": "2023-10-04T08:55:54.012Z",
+        "updated_at": "2023-10-04T10:05:44.422Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f0c6ec8-ef98-49ad-b1bc-d095a0f1eaea",
+        "action": "update",
+        "description": "Record updated successfully",
+        "created_at": "2023-10-04T23:18:05.554Z",
+        "updated_at": "2023-10-04T08:02:15.215Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e36f922c-aca1-414f-8cb8-a26988c9688b",
+        "action": "delete",
+        "description": "Record deleted successfully",
+        "created_at": "2023-10-04T15:07:51.221Z",
+        "updated_at": "2023-10-04T14:09:22.465Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d813acc1-2c47-4f3e-bb00-6abd3b384618",
+        "action": "view",
+        "description": "Viewed record details",
+        "created_at": "2023-10-04T21:15:48.575Z",
+        "updated_at": "2023-10-04T23:57:05.865Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "689f559b-1810-4491-8433-0f847c65e5e9",
+        "name": "Titanic",
+        "created_at": "2023-10-05T00:34:28.025Z",
+        "updated_at": "2023-10-04T22:57:25.047Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0f9e6c2f-976f-4803-bf3a-f9cdac2206c6",
+        "name": "Queen Mary",
+        "created_at": "2023-10-05T00:32:42.678Z",
+        "updated_at": "2023-10-05T00:28:23.185Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "72e9bdbd-2c98-435b-9b0f-6bf5319ef6e8",
+        "name": "S.S. Enterprise",
+        "created_at": "2023-10-05T01:41:35.220Z",
+        "updated_at": "2023-10-04T07:40:58.361Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "568d0547-23b7-4ccc-82b7-e7ab4bebbb31",
+        "name": "Ocean Voyager",
+        "created_at": "2023-10-04T10:11:42.599Z",
+        "updated_at": "2023-10-04T09:58:06.855Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "004152be-5571-4803-9920-ada9eaa06518",
+        "name": "Majestic Sea",
+        "created_at": "2023-10-05T02:31:49.900Z",
+        "updated_at": "2023-10-04T23:10:31.450Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "6d5d412f-8c62-4957-8aad-166e9204ede7",
+        "departure_date": "2023-10-04T23:30:30.469Z",
+        "arrival_date": "2023-10-05T04:52:43.372Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T08:25:53.831Z",
+        "updated_at": "2023-10-04T13:21:51.013Z",
+        "ship_id": "568d0547-23b7-4ccc-82b7-e7ab4bebbb31"
+      },
+      {
+        "id": "112c20ac-42d1-4728-85e5-ab70be2340c1",
+        "departure_date": "2023-10-05T05:13:57.347Z",
+        "arrival_date": "2023-10-04T12:47:54.053Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-05T02:45:49.997Z",
+        "updated_at": "2023-10-05T03:48:29.081Z",
+        "ship_id": "004152be-5571-4803-9920-ada9eaa06518"
+      },
+      {
+        "id": "f99e4303-7927-45d3-ab44-cb26710faa6f",
+        "departure_date": "2023-10-04T10:35:00.274Z",
+        "arrival_date": "2023-10-05T04:43:12.258Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-04T12:30:35.287Z",
+        "updated_at": "2023-10-04T12:48:15.675Z",
+        "ship_id": "689f559b-1810-4491-8433-0f847c65e5e9"
+      },
+      {
+        "id": "d5c4cef0-491b-4067-bc8e-7d8306f79e20",
+        "departure_date": "2023-10-04T13:41:45.573Z",
+        "arrival_date": "2023-10-05T03:39:57.128Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-05T04:32:46.186Z",
+        "updated_at": "2023-10-04T22:01:31.069Z",
+        "ship_id": "72e9bdbd-2c98-435b-9b0f-6bf5319ef6e8"
+      },
+      {
+        "id": "132dd141-8904-444e-a49a-2d125a436a6d",
+        "departure_date": "2023-10-05T00:47:07.899Z",
+        "arrival_date": "2023-10-04T21:37:08.701Z",
+        "departure_location": "Paris",
+        "arrival_location": "Rome",
+        "created_at": "2023-10-04T23:46:30.490Z",
+        "updated_at": "2023-10-05T02:50:25.523Z",
+        "ship_id": "004152be-5571-4803-9920-ada9eaa06518"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "6b53a6d8-4b26-430e-8dc2-63cede7ddddf",
+        "position": "Captain",
+        "start_date": "2023-10-05T04:11:32.550Z",
+        "end_date": "2023-10-05T07:15:15.735Z",
+        "created_at": "2023-10-05T01:34:05.695Z",
+        "updated_at": "2023-10-05T02:55:59.129Z",
+        "ship_id": "004152be-5571-4803-9920-ada9eaa06518",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4b65183-db4b-45bd-b21d-6620b2de5e67",
+        "position": "First Officer",
+        "start_date": "2023-10-04T18:39:09.011Z",
+        "end_date": "2023-10-05T00:21:31.370Z",
+        "created_at": "2023-10-05T03:45:22.864Z",
+        "updated_at": "2023-10-04T12:53:55.094Z",
+        "ship_id": "004152be-5571-4803-9920-ada9eaa06518",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df53d9a6-8de0-4187-8121-7ed05fafdd03",
+        "position": "Engineer",
+        "start_date": "2023-10-04T23:22:00.444Z",
+        "end_date": "2023-10-04T16:38:08.557Z",
+        "created_at": "2023-10-04T08:11:29.241Z",
+        "updated_at": "2023-10-04T19:02:21.828Z",
+        "ship_id": "72e9bdbd-2c98-435b-9b0f-6bf5319ef6e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9968c2a3-a4e8-4724-96fe-b53ff437b52a",
+        "position": "Navigator",
+        "start_date": "2023-10-04T20:35:35.951Z",
+        "end_date": "2023-10-05T04:48:41.662Z",
+        "created_at": "2023-10-04T13:56:50.697Z",
+        "updated_at": "2023-10-04T15:53:53.242Z",
+        "ship_id": "004152be-5571-4803-9920-ada9eaa06518",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8df6e99-4416-4e34-a964-f0f83f07d042",
+        "position": "Deckhand",
+        "start_date": "2023-10-04T20:38:42.915Z",
+        "end_date": "2023-10-04T16:54:47.941Z",
+        "created_at": "2023-10-04T07:56:49.660Z",
+        "updated_at": "2023-10-04T21:34:57.216Z",
+        "ship_id": "689f559b-1810-4491-8433-0f847c65e5e9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "84aeaf37-e3fb-49dd-9d6d-5b177b9bb845",
+        "email": "Alfonzo48@roq.tech",
+        "firstName": "Janie",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/657.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53baea00-e2a6-475e-a779-340195f6ab82",
+        "email": "Kattie.Runolfsdottir@roq.tech",
+        "firstName": "Martin",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea9eefc2-29de-43fc-ba23-a3982dde41e7",
+        "email": "Lila_Grimes@roq.tech",
+        "firstName": "Rory",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/596.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c84169c2-dc15-4733-b5f8-cebb49c2b8d5",
+        "email": "Raoul_Dooley@roq.tech",
+        "firstName": "Vena",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89785620",
+        "tenantId": null
+      },
+      {
+        "reference": "828e6f04-05df-4d3b-8c4e-d25e457a48eb",
+        "email": "Jody.Hammes@roq.tech",
+        "firstName": "Ariel",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16289497",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "1af838dd-07e2-4d90-bbf4-cce9c0ff4d80",
+        "action": "create",
+        "description": "User created",
+        "created_at": "2023-10-04T23:15:54.133Z",
+        "updated_at": "2023-10-05T05:37:10.788Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a48f5b74-3139-4920-9fc2-06e9bb4e04e9",
+        "action": "update",
+        "description": "Data updated",
+        "created_at": "2023-10-04T22:51:29.431Z",
+        "updated_at": "2023-10-04T21:38:09.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "225806d7-55f5-4930-a5b2-b18317f4d90f",
+        "action": "delete",
+        "description": "Record deleted",
+        "created_at": "2023-10-04T20:30:36.922Z",
+        "updated_at": "2023-10-05T01:41:18.726Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87a7a962-4e83-4d5f-90b0-7a917eef2e5c",
+        "action": "login",
+        "description": "User logged in",
+        "created_at": "2023-10-04T13:25:46.600Z",
+        "updated_at": "2023-10-04T09:17:59.984Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c9f37cf-f67a-46b6-ac3e-cf6649a6db45",
+        "action": "logout",
+        "description": "User logged out",
+        "created_at": "2023-10-04T16:44:12.996Z",
+        "updated_at": "2023-10-04T11:26:46.734Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "93d36646-67bb-4108-80da-34386f9f10fa",
+        "name": "Titanic",
+        "created_at": "2023-10-04T21:06:15.952Z",
+        "updated_at": "2023-10-05T05:26:17.934Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bde38ac8-222b-46a1-9982-a2fd0cad7e3f",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T12:56:02.650Z",
+        "updated_at": "2023-10-05T04:53:51.364Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61f2e647-1fbe-43a6-95e1-ae4b20d17f44",
+        "name": "Enterprise",
+        "created_at": "2023-10-04T16:10:57.799Z",
+        "updated_at": "2023-10-05T04:08:20.408Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c52f1906-bea8-4bb4-b248-fa5eea5b544b",
+        "name": "Serenity",
+        "created_at": "2023-10-05T07:11:45.942Z",
+        "updated_at": "2023-10-04T10:09:03.223Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "909fcea1-7a34-4b8f-b0ae-786250f8b157",
+        "name": "Black Pearl",
+        "created_at": "2023-10-04T22:24:48.613Z",
+        "updated_at": "2023-10-04T22:53:50.616Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "edeb6174-6d98-4647-a9e8-8dcada1d6590",
+        "departure_date": "2023-10-04T14:28:29.043Z",
+        "arrival_date": "2023-10-04T20:37:24.936Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T20:09:18.848Z",
+        "updated_at": "2023-10-04T08:18:22.147Z",
+        "ship_id": "909fcea1-7a34-4b8f-b0ae-786250f8b157"
+      },
+      {
+        "id": "e9d39880-c0b9-4783-84c7-9e1cb48c4f55",
+        "departure_date": "2023-10-04T09:49:22.289Z",
+        "arrival_date": "2023-10-04T20:54:07.912Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-04T20:24:35.357Z",
+        "updated_at": "2023-10-04T09:44:44.997Z",
+        "ship_id": "c52f1906-bea8-4bb4-b248-fa5eea5b544b"
+      },
+      {
+        "id": "3815b168-96c2-44e4-916e-b78df4970d4b",
+        "departure_date": "2023-10-04T22:11:18.484Z",
+        "arrival_date": "2023-10-04T15:11:10.567Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-05T04:07:08.422Z",
+        "updated_at": "2023-10-05T03:55:44.308Z",
+        "ship_id": "c52f1906-bea8-4bb4-b248-fa5eea5b544b"
+      },
+      {
+        "id": "05d01645-7f6c-46b9-a146-e42ef42a585d",
+        "departure_date": "2023-10-04T18:12:54.799Z",
+        "arrival_date": "2023-10-05T07:02:16.104Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-05T04:35:38.435Z",
+        "updated_at": "2023-10-04T15:46:36.108Z",
+        "ship_id": "61f2e647-1fbe-43a6-95e1-ae4b20d17f44"
+      },
+      {
+        "id": "95a120fd-6b9b-4bad-86a8-b55863b5ee6b",
+        "departure_date": "2023-10-04T14:36:47.071Z",
+        "arrival_date": "2023-10-05T00:52:30.117Z",
+        "departure_location": "Paris",
+        "arrival_location": "Berlin",
+        "created_at": "2023-10-04T13:50:36.469Z",
+        "updated_at": "2023-10-04T10:26:20.442Z",
+        "ship_id": "c52f1906-bea8-4bb4-b248-fa5eea5b544b"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "91f17861-a7d9-4957-aa62-2118859e8b26",
+        "position": "Captain",
+        "start_date": "2023-10-04T20:50:25.718Z",
+        "end_date": "2023-10-04T15:05:54.063Z",
+        "created_at": "2023-10-04T10:41:57.271Z",
+        "updated_at": "2023-10-05T04:54:28.687Z",
+        "ship_id": "bde38ac8-222b-46a1-9982-a2fd0cad7e3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ad1c41-2b8c-4f45-aec8-d2ce4630c708",
+        "position": "First Officer",
+        "start_date": "2023-10-04T07:29:21.874Z",
+        "end_date": "2023-10-05T04:43:30.463Z",
+        "created_at": "2023-10-05T06:40:42.813Z",
+        "updated_at": "2023-10-04T15:03:25.077Z",
+        "ship_id": "93d36646-67bb-4108-80da-34386f9f10fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27efb9c1-7e1f-4ee7-86b8-1112a96d44ed",
+        "position": "Engineer",
+        "start_date": "2023-10-04T13:37:45.465Z",
+        "end_date": "2023-10-05T06:33:08.827Z",
+        "created_at": "2023-10-04T15:02:00.324Z",
+        "updated_at": "2023-10-04T22:05:48.823Z",
+        "ship_id": "bde38ac8-222b-46a1-9982-a2fd0cad7e3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00fda582-2c74-491f-88d4-32f03a2bc403",
+        "position": "Navigator",
+        "start_date": "2023-10-04T08:08:19.175Z",
+        "end_date": "2023-10-04T20:00:29.793Z",
+        "created_at": "2023-10-04T15:47:59.040Z",
+        "updated_at": "2023-10-05T01:30:21.015Z",
+        "ship_id": "909fcea1-7a34-4b8f-b0ae-786250f8b157",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1b6e0dc-a0b3-40e9-bb55-8418d249ea76",
+        "position": "Chef",
+        "start_date": "2023-10-05T00:10:53.390Z",
+        "end_date": "2023-10-04T22:57:15.890Z",
+        "created_at": "2023-10-04T09:39:58.151Z",
+        "updated_at": "2023-10-05T00:34:32.219Z",
+        "ship_id": "bde38ac8-222b-46a1-9982-a2fd0cad7e3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "08e95c42-3a94-48cb-b3b3-0c942c37dc65",
+        "email": "Vaughn_Effertz5@roq.tech",
+        "firstName": "Samanta",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83433215",
+        "tenantId": null
+      },
+      {
+        "reference": "80cf5404-bff2-45dc-ab7d-e9ca17e73abd",
+        "email": "Tyrique_Ferry@roq.tech",
+        "firstName": "Blanca",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9181900",
+        "tenantId": null
+      },
+      {
+        "reference": "626d694f-08c8-4ee6-b4e5-15747e6def2e",
+        "email": "Katelynn45@roq.tech",
+        "firstName": "Jesse",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16846769",
+        "tenantId": null
+      },
+      {
+        "reference": "21c8f4b5-a977-4b3e-bc94-43f8f5037779",
+        "email": "Daron52@roq.tech",
+        "firstName": "Emerald",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2037022",
+        "tenantId": null
+      },
+      {
+        "reference": "1c984561-e377-4b98-9d9d-d2004c3430bc",
+        "email": "Graham_Abbott12@roq.tech",
+        "firstName": "Maximillian",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/581.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "98afd18c-afc6-4e46-95cc-b7921f053081",
+        "action": "login",
+        "description": "User logged in successfully",
+        "created_at": "2023-10-05T04:08:36.550Z",
+        "updated_at": "2023-10-04T15:32:17.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fb0c3ba-747a-42e4-bce3-be73b8acfea7",
+        "action": "create",
+        "description": "New record created",
+        "created_at": "2023-10-04T17:36:48.883Z",
+        "updated_at": "2023-10-04T19:02:18.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f044734-ce91-485b-adc4-2852552b24f5",
+        "action": "update",
+        "description": "Record updated successfully",
+        "created_at": "2023-10-04T19:31:33.496Z",
+        "updated_at": "2023-10-04T22:08:52.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76c937fa-a498-43a0-b210-6b45c1a538cd",
+        "action": "delete",
+        "description": "Record deleted",
+        "created_at": "2023-10-05T05:17:33.709Z",
+        "updated_at": "2023-10-04T19:33:33.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "614b2c6d-586e-4155-951e-16b48050c7f0",
+        "action": "view",
+        "description": "Viewed details",
+        "created_at": "2023-10-05T04:13:30.617Z",
+        "updated_at": "2023-10-04T19:16:57.872Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "3a45fe1d-a790-44af-89b4-d097666fb017",
+        "name": "Titanic",
+        "created_at": "2023-10-05T05:19:07.466Z",
+        "updated_at": "2023-10-04T10:00:07.415Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2e55bf2a-9eaf-479b-8061-03e30c83fb93",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T08:13:46.245Z",
+        "updated_at": "2023-10-04T07:31:43.407Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "518e55ae-764b-476d-b203-ce5f54c03523",
+        "name": "Enterprise",
+        "created_at": "2023-10-04T10:46:41.306Z",
+        "updated_at": "2023-10-05T00:42:14.912Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "47374f09-1442-42a2-94e1-12af241502cc",
+        "name": "Discovery",
+        "created_at": "2023-10-04T23:52:02.242Z",
+        "updated_at": "2023-10-04T11:39:23.765Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fde26f71-94b5-4695-8471-172808cc21bf",
+        "name": "Serenity",
+        "created_at": "2023-10-04T19:01:03.831Z",
+        "updated_at": "2023-10-04T22:33:35.273Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "d954bfca-b021-4da9-8044-8cd5fceac776",
+        "departure_date": "2023-10-04T12:18:06.289Z",
+        "arrival_date": "2023-10-04T23:23:09.319Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T18:58:29.583Z",
+        "updated_at": "2023-10-04T23:38:18.729Z",
+        "ship_id": "fde26f71-94b5-4695-8471-172808cc21bf"
+      },
+      {
+        "id": "feaa4487-6020-465c-b1b6-8ae605f883a1",
+        "departure_date": "2023-10-05T02:21:50.776Z",
+        "arrival_date": "2023-10-04T07:35:29.968Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-05T03:43:57.932Z",
+        "updated_at": "2023-10-04T15:53:17.528Z",
+        "ship_id": "518e55ae-764b-476d-b203-ce5f54c03523"
+      },
+      {
+        "id": "639c8a98-b4bf-4db5-b44b-acca144c9bfb",
+        "departure_date": "2023-10-04T19:03:21.450Z",
+        "arrival_date": "2023-10-05T05:00:29.928Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-04T09:20:13.154Z",
+        "updated_at": "2023-10-05T04:35:21.547Z",
+        "ship_id": "518e55ae-764b-476d-b203-ce5f54c03523"
+      },
+      {
+        "id": "058b5d7d-845c-4561-bda5-3371b84da004",
+        "departure_date": "2023-10-04T19:39:55.702Z",
+        "arrival_date": "2023-10-04T23:10:31.564Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-05T06:46:43.373Z",
+        "updated_at": "2023-10-04T10:57:42.527Z",
+        "ship_id": "3a45fe1d-a790-44af-89b4-d097666fb017"
+      },
+      {
+        "id": "78a80beb-75ea-425f-8127-aeb4bbea3a27",
+        "departure_date": "2023-10-04T11:21:55.939Z",
+        "arrival_date": "2023-10-04T22:34:52.241Z",
+        "departure_location": "Paris",
+        "arrival_location": "Rome",
+        "created_at": "2023-10-04T13:39:07.695Z",
+        "updated_at": "2023-10-04T11:24:11.010Z",
+        "ship_id": "2e55bf2a-9eaf-479b-8061-03e30c83fb93"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "51cd94e4-108c-4088-908e-53b0dad8b4da",
+        "position": "Captain",
+        "start_date": "2023-10-04T21:34:11.461Z",
+        "end_date": "2023-10-04T12:34:45.389Z",
+        "created_at": "2023-10-04T17:03:57.402Z",
+        "updated_at": "2023-10-05T01:02:30.713Z",
+        "ship_id": "3a45fe1d-a790-44af-89b4-d097666fb017",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f5b821-4259-4870-87a5-a879bc5619ab",
+        "position": "First Officer",
+        "start_date": "2023-10-04T23:48:17.088Z",
+        "end_date": "2023-10-05T05:30:36.591Z",
+        "created_at": "2023-10-04T13:09:42.561Z",
+        "updated_at": "2023-10-05T00:24:23.182Z",
+        "ship_id": "2e55bf2a-9eaf-479b-8061-03e30c83fb93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eaa38bc-5b3e-461a-a18a-54a31b96ee63",
+        "position": "Engineer",
+        "start_date": "2023-10-04T12:08:28.769Z",
+        "end_date": "2023-10-04T07:55:41.159Z",
+        "created_at": "2023-10-04T07:44:28.425Z",
+        "updated_at": "2023-10-04T16:27:12.291Z",
+        "ship_id": "fde26f71-94b5-4695-8471-172808cc21bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "912e707a-a64c-4878-879f-32e77655eeb3",
+        "position": "Navigator",
+        "start_date": "2023-10-05T01:00:04.430Z",
+        "end_date": "2023-10-04T09:41:31.495Z",
+        "created_at": "2023-10-04T07:36:51.692Z",
+        "updated_at": "2023-10-05T03:29:31.110Z",
+        "ship_id": "518e55ae-764b-476d-b203-ce5f54c03523",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "142542e2-2597-41c2-b2d8-3202b0a2e721",
+        "position": "Steward",
+        "start_date": "2023-10-04T08:34:28.126Z",
+        "end_date": "2023-10-04T09:10:17.516Z",
+        "created_at": "2023-10-05T03:08:24.298Z",
+        "updated_at": "2023-10-04T23:25:53.225Z",
+        "ship_id": "fde26f71-94b5-4695-8471-172808cc21bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1abf7002-4fba-470e-b182-b57a96172541",
+        "email": "Rosella.Kihn@roq.tech",
+        "firstName": "Ted",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/497.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8a52dd24-bfbb-463d-a2e9-37ae0975b88f",
+        "email": "Dena_Lesch80@roq.tech",
+        "firstName": "Kaycee",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b914ef85-9404-4fd3-801d-75de5aa19695",
+        "email": "Jamison_Bernier29@roq.tech",
+        "firstName": "Idella",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83707121",
+        "tenantId": null
+      },
+      {
+        "reference": "ddd22967-0a61-4e5f-9f2f-d8626498688e",
+        "email": "Alessandro.Nolan@roq.tech",
+        "firstName": "Everardo",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66740530",
+        "tenantId": null
+      },
+      {
+        "reference": "8777b400-661b-4621-b49c-11496352e8bd",
+        "email": "Oswald4@roq.tech",
+        "firstName": "Frederic",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/210.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "4f6eb558-95f6-4b07-877d-fb4e357ed967",
+        "action": "create",
+        "description": "Performed a create action",
+        "created_at": "2023-10-04T11:24:18.946Z",
+        "updated_at": "2023-10-04T12:47:59.879Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75ce4740-2dc0-408b-9f66-b1f2802f658f",
+        "action": "update",
+        "description": "Updated the record",
+        "created_at": "2023-10-04T14:21:18.360Z",
+        "updated_at": "2023-10-05T00:45:23.477Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22daaa37-bc62-4363-be68-9b10612f0d20",
+        "action": "delete",
+        "description": "Deleted the item",
+        "created_at": "2023-10-05T05:23:05.346Z",
+        "updated_at": "2023-10-05T02:02:59.081Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad994d57-6aa3-4d62-ac57-b2dec46e4b03",
+        "action": "login",
+        "description": "Logged in to the system",
+        "created_at": "2023-10-04T16:32:52.843Z",
+        "updated_at": "2023-10-04T12:55:32.506Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a5449a8-1b5b-4578-8ec9-e024ba3ba15c",
+        "action": "logout",
+        "description": "Logged out from the system",
+        "created_at": "2023-10-04T13:33:43.310Z",
+        "updated_at": "2023-10-04T13:21:32.053Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "a52ad82a-3c9d-460a-b488-f745688520bb",
+        "name": "Titanic",
+        "created_at": "2023-10-05T04:15:23.697Z",
+        "updated_at": "2023-10-04T23:25:34.152Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ab7ef84a-0e8f-41a0-9d85-16033a362aef",
+        "name": "Enterprise",
+        "created_at": "2023-10-05T05:03:33.664Z",
+        "updated_at": "2023-10-04T15:52:59.415Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b462b703-2320-407d-96f6-4be2028957af",
+        "name": "Discovery",
+        "created_at": "2023-10-04T22:42:24.288Z",
+        "updated_at": "2023-10-04T21:21:25.137Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "26b6af40-60e5-446a-adcd-60b92c6ff481",
+        "name": "Serenity",
+        "created_at": "2023-10-04T11:26:16.305Z",
+        "updated_at": "2023-10-04T18:30:36.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "21ff4b05-c2c5-4b35-b714-dd225e84e7a8",
+        "name": "Endeavour",
+        "created_at": "2023-10-04T23:41:43.534Z",
+        "updated_at": "2023-10-05T04:25:12.162Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "08570e6a-110f-409b-b5e4-11499137b626",
+        "departure_date": "2023-10-05T02:28:51.324Z",
+        "arrival_date": "2023-10-04T09:27:15.247Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T12:18:56.612Z",
+        "updated_at": "2023-10-04T15:40:48.090Z",
+        "ship_id": "26b6af40-60e5-446a-adcd-60b92c6ff481"
+      },
+      {
+        "id": "fd6cd6dd-de15-46c2-9d8e-53ba8629e1f9",
+        "departure_date": "2023-10-05T00:10:14.342Z",
+        "arrival_date": "2023-10-05T00:51:01.884Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-04T10:45:04.094Z",
+        "updated_at": "2023-10-04T23:34:09.949Z",
+        "ship_id": "21ff4b05-c2c5-4b35-b714-dd225e84e7a8"
+      },
+      {
+        "id": "e4bbb081-60cc-447b-b64e-6be0b4fc9017",
+        "departure_date": "2023-10-04T09:01:49.502Z",
+        "arrival_date": "2023-10-04T08:16:03.224Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-04T11:36:04.644Z",
+        "updated_at": "2023-10-04T14:43:59.945Z",
+        "ship_id": "b462b703-2320-407d-96f6-4be2028957af"
+      },
+      {
+        "id": "f163f8f0-7699-4a99-b736-a191b1f4ad3d",
+        "departure_date": "2023-10-04T12:52:19.727Z",
+        "arrival_date": "2023-10-04T15:24:15.147Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-04T12:01:03.296Z",
+        "updated_at": "2023-10-04T20:17:29.017Z",
+        "ship_id": "b462b703-2320-407d-96f6-4be2028957af"
+      },
+      {
+        "id": "75ddfb3f-1e6e-4dfe-9098-13e6ff0951b8",
+        "departure_date": "2023-10-04T18:51:45.941Z",
+        "arrival_date": "2023-10-04T21:45:17.675Z",
+        "departure_location": "Paris",
+        "arrival_location": "Mumbai",
+        "created_at": "2023-10-04T16:15:36.035Z",
+        "updated_at": "2023-10-04T08:36:32.861Z",
+        "ship_id": "b462b703-2320-407d-96f6-4be2028957af"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "9fa16917-5094-4d2e-a8ea-4b187551b6c5",
+        "position": "Captain",
+        "start_date": "2023-10-04T20:44:26.450Z",
+        "end_date": "2023-10-04T17:29:13.476Z",
+        "created_at": "2023-10-04T07:45:33.219Z",
+        "updated_at": "2023-10-04T20:18:19.263Z",
+        "ship_id": "26b6af40-60e5-446a-adcd-60b92c6ff481",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e5deb5f-3590-4408-a9f2-df2587e12512",
+        "position": "First Officer",
+        "start_date": "2023-10-04T07:51:47.189Z",
+        "end_date": "2023-10-05T00:48:11.607Z",
+        "created_at": "2023-10-04T15:02:32.973Z",
+        "updated_at": "2023-10-04T23:41:10.589Z",
+        "ship_id": "ab7ef84a-0e8f-41a0-9d85-16033a362aef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d303165f-9744-4dda-a366-c6ff9157a94b",
+        "position": "Engineer",
+        "start_date": "2023-10-05T02:12:07.287Z",
+        "end_date": "2023-10-04T14:27:14.861Z",
+        "created_at": "2023-10-04T17:46:52.122Z",
+        "updated_at": "2023-10-04T14:51:44.268Z",
+        "ship_id": "ab7ef84a-0e8f-41a0-9d85-16033a362aef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24acb8eb-122a-4024-9a11-5b31e68342fa",
+        "position": "Navigator",
+        "start_date": "2023-10-04T23:07:01.025Z",
+        "end_date": "2023-10-05T04:04:21.257Z",
+        "created_at": "2023-10-05T00:46:39.424Z",
+        "updated_at": "2023-10-04T19:42:59.685Z",
+        "ship_id": "ab7ef84a-0e8f-41a0-9d85-16033a362aef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "853e0111-6893-4ab4-876d-f73e79d2cdc5",
+        "position": "Chef",
+        "start_date": "2023-10-04T09:34:16.755Z",
+        "end_date": "2023-10-04T23:10:47.728Z",
+        "created_at": "2023-10-04T11:05:10.581Z",
+        "updated_at": "2023-10-04T14:42:43.463Z",
+        "ship_id": "b462b703-2320-407d-96f6-4be2028957af",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d66fe999-99a0-45e6-a8bc-85dfb71a8178",
+        "email": "Myrtie_OHara-Pagac96@roq.tech",
+        "firstName": "Yasmin",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/318.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34d4ba66-b51a-4b86-b06a-79a89511f2b6",
+        "email": "Lilian.Schumm@roq.tech",
+        "firstName": "Elsie",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57995542",
+        "tenantId": null
+      },
+      {
+        "reference": "d6a0e5ac-c23d-47a4-988f-7a89560857b6",
+        "email": "Selmer34@roq.tech",
+        "firstName": "Rossie",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92234594",
+        "tenantId": null
+      },
+      {
+        "reference": "4eae0110-6ba7-4893-abdd-1c802c263693",
+        "email": "Trey26@roq.tech",
+        "firstName": "Isom",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61144963",
+        "tenantId": null
+      },
+      {
+        "reference": "45d92b67-eeff-45b9-b7fc-ca873c4310c1",
+        "email": "Angelita93@roq.tech",
+        "firstName": "Shanel",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1212.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "64d206ad-d475-4b1a-9b68-c4bcee95195d",
+        "action": "login",
+        "description": "User logged in successfully",
+        "created_at": "2023-10-05T03:56:31.561Z",
+        "updated_at": "2023-10-04T17:54:39.929Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b6688da-475e-4ff6-aeff-569b78469a19",
+        "action": "create",
+        "description": "Created a new record",
+        "created_at": "2023-10-04T23:21:42.586Z",
+        "updated_at": "2023-10-04T17:57:17.828Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd7ee3a4-3644-4399-9688-d1914afe3aa8",
+        "action": "update",
+        "description": "Updated the data",
+        "created_at": "2023-10-04T08:16:12.183Z",
+        "updated_at": "2023-10-04T14:11:42.059Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54455777-4172-4071-934d-2554e8a3a5fc",
+        "action": "delete",
+        "description": "Deleted an entry",
+        "created_at": "2023-10-05T07:05:14.967Z",
+        "updated_at": "2023-10-04T23:28:33.329Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7c7c483-93d0-494f-b951-f3a2580f0d9b",
+        "action": "view",
+        "description": "Viewed the details",
+        "created_at": "2023-10-04T19:51:34.367Z",
+        "updated_at": "2023-10-04T16:54:26.131Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "956ae8d5-65a9-431d-b14f-d20813742ffc",
+        "name": "Titanic",
+        "created_at": "2023-10-04T08:49:11.718Z",
+        "updated_at": "2023-10-05T01:13:26.425Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "276f63d1-4234-40f9-8479-fe7816d2d7df",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T17:30:48.277Z",
+        "updated_at": "2023-10-04T22:07:36.667Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "84bdd966-7937-4154-86c9-d298c267a2ea",
+        "name": "S.S. Enterprise",
+        "created_at": "2023-10-04T18:39:03.518Z",
+        "updated_at": "2023-10-05T00:02:58.929Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "583ae03d-01a5-43b5-aa4b-7091e7bbc796",
+        "name": "Oceanic",
+        "created_at": "2023-10-04T10:34:51.070Z",
+        "updated_at": "2023-10-04T22:44:56.571Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b64afd4c-e257-4b83-a57b-f6d0946944c0",
+        "name": "Majestic",
+        "created_at": "2023-10-05T04:35:30.938Z",
+        "updated_at": "2023-10-04T07:52:17.324Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "e93e26b5-2e76-4c94-ac7b-b0ac2de4359f",
+        "departure_date": "2023-10-04T09:41:54.605Z",
+        "arrival_date": "2023-10-05T05:33:02.505Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T08:50:16.086Z",
+        "updated_at": "2023-10-05T02:57:14.816Z",
+        "ship_id": "b64afd4c-e257-4b83-a57b-f6d0946944c0"
+      },
+      {
+        "id": "eae4fe39-ccb1-409a-b034-7bc0f8937900",
+        "departure_date": "2023-10-04T16:38:08.785Z",
+        "arrival_date": "2023-10-05T00:39:26.170Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-05T06:49:53.402Z",
+        "updated_at": "2023-10-05T06:09:08.173Z",
+        "ship_id": "84bdd966-7937-4154-86c9-d298c267a2ea"
+      },
+      {
+        "id": "1316305c-3587-41ea-b1fb-17dcfd4f7d6a",
+        "departure_date": "2023-10-05T05:09:52.192Z",
+        "arrival_date": "2023-10-04T20:15:07.071Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-04T08:03:26.855Z",
+        "updated_at": "2023-10-05T02:59:46.908Z",
+        "ship_id": "84bdd966-7937-4154-86c9-d298c267a2ea"
+      },
+      {
+        "id": "5ec8e0a2-a1cc-4340-acb3-93b8bbd13d24",
+        "departure_date": "2023-10-04T08:57:13.251Z",
+        "arrival_date": "2023-10-05T03:24:22.515Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-05T05:30:30.600Z",
+        "updated_at": "2023-10-04T16:10:47.307Z",
+        "ship_id": "b64afd4c-e257-4b83-a57b-f6d0946944c0"
+      },
+      {
+        "id": "6c5faa53-d9ec-44fe-a1b5-90b5bf1c006a",
+        "departure_date": "2023-10-05T02:13:55.212Z",
+        "arrival_date": "2023-10-04T08:06:39.831Z",
+        "departure_location": "Paris",
+        "arrival_location": "Berlin",
+        "created_at": "2023-10-04T13:53:58.028Z",
+        "updated_at": "2023-10-04T11:43:00.979Z",
+        "ship_id": "b64afd4c-e257-4b83-a57b-f6d0946944c0"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "eb381974-f9bf-4aa1-bc7f-a09bccf1fd23",
+        "position": "Captain",
+        "start_date": "2023-10-05T05:41:56.105Z",
+        "end_date": "2023-10-04T10:25:48.926Z",
+        "created_at": "2023-10-04T18:17:58.461Z",
+        "updated_at": "2023-10-04T16:44:58.362Z",
+        "ship_id": "956ae8d5-65a9-431d-b14f-d20813742ffc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0d37491-ac7a-4c5d-8890-a1cf10c441fe",
+        "position": "First Officer",
+        "start_date": "2023-10-04T15:42:34.890Z",
+        "end_date": "2023-10-04T19:53:58.526Z",
+        "created_at": "2023-10-04T11:34:44.134Z",
+        "updated_at": "2023-10-04T17:32:46.429Z",
+        "ship_id": "b64afd4c-e257-4b83-a57b-f6d0946944c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf800e8b-1455-4cac-92d7-af5e4df2dbc3",
+        "position": "Engineer",
+        "start_date": "2023-10-04T22:09:15.379Z",
+        "end_date": "2023-10-05T00:17:53.896Z",
+        "created_at": "2023-10-04T11:48:12.179Z",
+        "updated_at": "2023-10-05T05:48:34.952Z",
+        "ship_id": "956ae8d5-65a9-431d-b14f-d20813742ffc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84cba460-a1bf-4fdc-90dc-05caa07425ec",
+        "position": "Navigator",
+        "start_date": "2023-10-04T21:21:51.703Z",
+        "end_date": "2023-10-04T09:45:16.291Z",
+        "created_at": "2023-10-04T07:26:35.381Z",
+        "updated_at": "2023-10-04T08:12:00.253Z",
+        "ship_id": "b64afd4c-e257-4b83-a57b-f6d0946944c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0cfa7d2-d7c1-43ad-936f-3b4357513ae5",
+        "position": "Chef",
+        "start_date": "2023-10-04T22:55:22.603Z",
+        "end_date": "2023-10-05T00:17:19.675Z",
+        "created_at": "2023-10-04T07:54:58.171Z",
+        "updated_at": "2023-10-04T11:18:31.083Z",
+        "ship_id": "956ae8d5-65a9-431d-b14f-d20813742ffc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "da7a2c5f-0336-4103-a2f9-65790133275f",
+        "email": "Ayden_Collier@roq.tech",
+        "firstName": "Karine",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66215311",
+        "tenantId": null
+      },
+      {
+        "reference": "82fe92d0-8bb7-40b9-8d72-685f2ec6552d",
+        "email": "Tillman_Berge@roq.tech",
+        "firstName": "Jaylin",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e01da03-159f-4433-be66-16f4b9d6faca",
+        "email": "Roscoe_Gibson@roq.tech",
+        "firstName": "Pedro",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/360.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a492e37-6082-477f-8b47-e673b1a16b30",
+        "email": "Lurline.Kub98@roq.tech",
+        "firstName": "Maximilian",
+        "lastName": "Larkin-Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/283.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4dd42dd6-9596-4ec7-ab37-dd65254050d6",
+        "email": "Lauren86@roq.tech",
+        "firstName": "Victoria",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/986.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "e05f0986-1888-4cbe-9209-c5d21c65d829",
+        "action": "login",
+        "description": "User logged in successfully",
+        "created_at": "2023-10-04T15:35:39.464Z",
+        "updated_at": "2023-10-04T09:43:57.957Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa21c60d-e9a6-4612-8aae-d5170f45cdee",
+        "action": "logout",
+        "description": "User logged out",
+        "created_at": "2023-10-04T16:40:50.982Z",
+        "updated_at": "2023-10-04T22:34:31.707Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "339dc2c8-2aaf-40d9-bfe7-4fe7432c9336",
+        "action": "create",
+        "description": "Record created successfully",
+        "created_at": "2023-10-04T11:33:01.679Z",
+        "updated_at": "2023-10-04T22:00:56.556Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb148000-e31c-4c53-a503-6b1571602bec",
+        "action": "update",
+        "description": "Record updated successfully",
+        "created_at": "2023-10-04T09:34:16.717Z",
+        "updated_at": "2023-10-04T23:08:08.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "250006f2-518a-4cbc-a6cc-2b7a67677978",
+        "action": "delete",
+        "description": "Record deleted successfully",
+        "created_at": "2023-10-05T02:43:54.214Z",
+        "updated_at": "2023-10-05T03:13:15.523Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "531fcb15-deb4-41f4-ad25-236684523a29",
+        "name": "Titanic",
+        "created_at": "2023-10-04T16:52:02.913Z",
+        "updated_at": "2023-10-04T07:29:50.276Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a8c356ee-7611-4911-94bb-7336948d0f0f",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T23:56:29.620Z",
+        "updated_at": "2023-10-04T13:15:57.010Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "73ea8895-0688-4b73-a494-30fcf53feb6a",
+        "name": "S.S. Enterprise",
+        "created_at": "2023-10-04T17:56:03.922Z",
+        "updated_at": "2023-10-04T16:47:20.310Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8c7dc62f-f764-41b1-80f7-93928cd188fd",
+        "name": "Oceanic",
+        "created_at": "2023-10-04T07:48:06.087Z",
+        "updated_at": "2023-10-04T20:18:41.393Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6248398b-5fee-4f6d-af28-1ba91287fad4",
+        "name": "Majestic",
+        "created_at": "2023-10-04T17:29:58.060Z",
+        "updated_at": "2023-10-05T00:37:28.092Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "b731e369-9e40-48b4-9c5f-f88fd39e384e",
+        "departure_date": "2023-10-05T04:27:09.165Z",
+        "arrival_date": "2023-10-04T18:04:29.740Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T20:20:16.687Z",
+        "updated_at": "2023-10-04T10:12:44.868Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4"
+      },
+      {
+        "id": "190e3393-a8d3-4109-8c8b-07e1458b48b4",
+        "departure_date": "2023-10-05T06:02:59.555Z",
+        "arrival_date": "2023-10-04T09:13:28.756Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-04T21:50:17.881Z",
+        "updated_at": "2023-10-04T23:29:52.962Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4"
+      },
+      {
+        "id": "a3a8b935-0267-4778-a96f-f936371bc5d6",
+        "departure_date": "2023-10-04T10:27:33.833Z",
+        "arrival_date": "2023-10-04T21:50:08.502Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-04T16:13:36.252Z",
+        "updated_at": "2023-10-05T04:01:05.685Z",
+        "ship_id": "73ea8895-0688-4b73-a494-30fcf53feb6a"
+      },
+      {
+        "id": "e1a9fe3d-d477-408c-b6ee-592307124ef3",
+        "departure_date": "2023-10-04T16:17:00.413Z",
+        "arrival_date": "2023-10-04T09:08:07.828Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Hong Kong",
+        "created_at": "2023-10-04T23:41:49.664Z",
+        "updated_at": "2023-10-04T09:53:38.861Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4"
+      },
+      {
+        "id": "1be28f22-d9dd-439c-819e-e98ce3281490",
+        "departure_date": "2023-10-04T12:13:56.436Z",
+        "arrival_date": "2023-10-05T00:30:20.830Z",
+        "departure_location": "Paris",
+        "arrival_location": "Rome",
+        "created_at": "2023-10-04T14:33:56.938Z",
+        "updated_at": "2023-10-04T22:50:48.820Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "f5845093-648c-4ad8-9f33-a19241ac0ec9",
+        "position": "Captain",
+        "start_date": "2023-10-04T11:55:15.588Z",
+        "end_date": "2023-10-04T13:15:42.078Z",
+        "created_at": "2023-10-05T01:17:33.306Z",
+        "updated_at": "2023-10-04T21:52:59.784Z",
+        "ship_id": "531fcb15-deb4-41f4-ad25-236684523a29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be7f55bd-6adf-4797-8e1c-357cf146ccea",
+        "position": "First Officer",
+        "start_date": "2023-10-04T14:37:58.945Z",
+        "end_date": "2023-10-04T08:48:05.424Z",
+        "created_at": "2023-10-05T00:40:19.364Z",
+        "updated_at": "2023-10-05T03:32:06.541Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc31b828-8e78-412f-a289-88f2b38c0cef",
+        "position": "Engineer",
+        "start_date": "2023-10-04T07:40:49.271Z",
+        "end_date": "2023-10-05T05:27:48.687Z",
+        "created_at": "2023-10-05T04:21:49.227Z",
+        "updated_at": "2023-10-05T05:02:00.399Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07e264ed-ab4f-41a9-b29d-54e276fd0f57",
+        "position": "Navigator",
+        "start_date": "2023-10-04T12:33:20.475Z",
+        "end_date": "2023-10-04T10:02:55.737Z",
+        "created_at": "2023-10-04T13:59:34.324Z",
+        "updated_at": "2023-10-05T02:01:36.401Z",
+        "ship_id": "6248398b-5fee-4f6d-af28-1ba91287fad4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dd29b70-321f-4275-9d1d-576d073e9cd3",
+        "position": "Steward",
+        "start_date": "2023-10-04T08:05:12.601Z",
+        "end_date": "2023-10-04T13:17:07.117Z",
+        "created_at": "2023-10-04T17:28:20.159Z",
+        "updated_at": "2023-10-04T15:51:44.456Z",
+        "ship_id": "8c7dc62f-f764-41b1-80f7-93928cd188fd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ebbdb786-34de-43e5-bf36-7f7e0da15006",
+        "email": "Taya.Bartell-Block@roq.tech",
+        "firstName": "Georgianna",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86203894",
+        "tenantId": null
+      },
+      {
+        "reference": "483eb46c-7aab-4a66-adb1-f8477efbf60a",
+        "email": "Eve50@roq.tech",
+        "firstName": "Jeanne",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5442585",
+        "tenantId": null
+      },
+      {
+        "reference": "911d94f6-387c-439e-bfeb-7c7bf6f8dff3",
+        "email": "Austen_Crona@roq.tech",
+        "firstName": "Moses",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68615008",
+        "tenantId": null
+      },
+      {
+        "reference": "20df2e4c-41f2-4ba6-a955-263aa382e753",
+        "email": "Eleanora.Goyette@roq.tech",
+        "firstName": "Otho",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59636713",
+        "tenantId": null
+      },
+      {
+        "reference": "f603e60b-e792-4edc-b109-35527b745e62",
+        "email": "Lilyan38@roq.tech",
+        "firstName": "Brandy",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82773981",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "7af0ed3d-db07-468c-bf7a-d04c8f9e68dc",
+        "action": "login",
+        "description": "User logged in successfully",
+        "created_at": "2023-10-05T05:30:32.876Z",
+        "updated_at": "2023-10-05T01:27:44.273Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a682dce3-bc94-4f62-8a11-159650a5986b",
+        "action": "create",
+        "description": "New record created",
+        "created_at": "2023-10-04T09:40:44.642Z",
+        "updated_at": "2023-10-05T06:19:36.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f80bc9-e28a-4d0a-b907-962ee0c3b181",
+        "action": "update",
+        "description": "Record updated successfully",
+        "created_at": "2023-10-04T23:33:47.143Z",
+        "updated_at": "2023-10-04T19:45:24.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7514dfcc-5de1-4907-8fe1-60d9e696a032",
+        "action": "delete",
+        "description": "Record deleted successfully",
+        "created_at": "2023-10-05T06:04:56.872Z",
+        "updated_at": "2023-10-05T06:53:23.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94d98e70-a921-455b-82fa-06058338e5e1",
+        "action": "view",
+        "description": "Viewed record details",
+        "created_at": "2023-10-04T22:11:21.008Z",
+        "updated_at": "2023-10-04T11:56:33.248Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "1d0e3844-6577-4832-83c4-22936c10a6d1",
+        "name": "Titanic",
+        "created_at": "2023-10-05T07:16:45.243Z",
+        "updated_at": "2023-10-04T10:10:39.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0dfc3373-edd5-44f5-89fd-739731da68e7",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T13:44:41.038Z",
+        "updated_at": "2023-10-05T02:23:40.356Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7bdf245b-577b-462a-9c59-b499d8c1b9b3",
+        "name": "Enterprise",
+        "created_at": "2023-10-04T17:09:28.371Z",
+        "updated_at": "2023-10-05T02:32:21.210Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c307c0ae-3333-4872-a681-7356c8ae29a5",
+        "name": "Serenity",
+        "created_at": "2023-10-04T21:57:53.446Z",
+        "updated_at": "2023-10-04T09:27:52.378Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f89f13b-856c-491e-a12f-04fdefaaed19",
+        "name": "Discovery",
+        "created_at": "2023-10-04T07:38:47.770Z",
+        "updated_at": "2023-10-04T23:54:49.583Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "7f88ab26-0c08-41dc-a0b7-0db57c11db25",
+        "departure_date": "2023-10-04T15:15:12.740Z",
+        "arrival_date": "2023-10-04T23:31:13.622Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T13:40:51.878Z",
+        "updated_at": "2023-10-04T18:01:00.417Z",
+        "ship_id": "0dfc3373-edd5-44f5-89fd-739731da68e7"
+      },
+      {
+        "id": "f3ef0d24-89c9-4e3f-89d8-c823f9e574ff",
+        "departure_date": "2023-10-05T02:49:22.688Z",
+        "arrival_date": "2023-10-04T15:13:40.122Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-05T00:36:59.375Z",
+        "updated_at": "2023-10-04T19:51:26.462Z",
+        "ship_id": "c307c0ae-3333-4872-a681-7356c8ae29a5"
+      },
+      {
+        "id": "73331d23-a695-482d-a4db-7db91395741d",
+        "departure_date": "2023-10-05T02:24:49.236Z",
+        "arrival_date": "2023-10-04T09:29:58.576Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-04T08:59:21.487Z",
+        "updated_at": "2023-10-04T18:37:03.715Z",
+        "ship_id": "1d0e3844-6577-4832-83c4-22936c10a6d1"
+      },
+      {
+        "id": "1398fde5-b920-46a7-b3dc-7ca66e1d7f99",
+        "departure_date": "2023-10-04T07:23:52.733Z",
+        "arrival_date": "2023-10-04T14:39:07.545Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-05T03:06:20.989Z",
+        "updated_at": "2023-10-04T08:28:20.406Z",
+        "ship_id": "c307c0ae-3333-4872-a681-7356c8ae29a5"
+      },
+      {
+        "id": "abd1b744-ca49-4aa8-88c5-f93a266b4648",
+        "departure_date": "2023-10-04T18:47:51.137Z",
+        "arrival_date": "2023-10-05T02:02:31.325Z",
+        "departure_location": "Paris",
+        "arrival_location": "Mumbai",
+        "created_at": "2023-10-05T03:26:23.457Z",
+        "updated_at": "2023-10-04T08:29:48.377Z",
+        "ship_id": "c307c0ae-3333-4872-a681-7356c8ae29a5"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "190c1750-b0fd-4ba2-83e7-084f81fe19b9",
+        "position": "Captain",
+        "start_date": "2023-10-05T05:35:31.672Z",
+        "end_date": "2023-10-04T09:44:56.391Z",
+        "created_at": "2023-10-04T12:05:13.305Z",
+        "updated_at": "2023-10-04T15:15:25.169Z",
+        "ship_id": "c307c0ae-3333-4872-a681-7356c8ae29a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53fbc511-b774-4352-bee6-c486d03ae708",
+        "position": "First Officer",
+        "start_date": "2023-10-04T19:32:49.300Z",
+        "end_date": "2023-10-04T08:26:15.695Z",
+        "created_at": "2023-10-04T21:12:31.559Z",
+        "updated_at": "2023-10-04T12:17:15.184Z",
+        "ship_id": "7bdf245b-577b-462a-9c59-b499d8c1b9b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83cac705-d72c-49c8-923b-ed6a18617209",
+        "position": "Engineer",
+        "start_date": "2023-10-05T05:22:38.970Z",
+        "end_date": "2023-10-05T04:12:37.761Z",
+        "created_at": "2023-10-05T06:21:25.469Z",
+        "updated_at": "2023-10-04T21:05:15.570Z",
+        "ship_id": "1d0e3844-6577-4832-83c4-22936c10a6d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba007cf6-f0e0-4fe2-802b-10b5965d296e",
+        "position": "Navigator",
+        "start_date": "2023-10-04T11:30:41.618Z",
+        "end_date": "2023-10-04T14:27:44.791Z",
+        "created_at": "2023-10-04T23:02:00.122Z",
+        "updated_at": "2023-10-05T06:30:02.493Z",
+        "ship_id": "c307c0ae-3333-4872-a681-7356c8ae29a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a4b8a98-e5f6-4d59-966c-4efe78ba5f83",
+        "position": "Steward",
+        "start_date": "2023-10-05T02:26:22.141Z",
+        "end_date": "2023-10-05T04:39:53.423Z",
+        "created_at": "2023-10-04T23:41:45.557Z",
+        "updated_at": "2023-10-04T21:32:46.371Z",
+        "ship_id": "c307c0ae-3333-4872-a681-7356c8ae29a5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e616c4ee-3f55-48f2-9e1e-5f31d5e6d0cf",
+        "email": "Faustino_Raynor80@roq.tech",
+        "firstName": "Connie",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92933811",
+        "tenantId": null
+      },
+      {
+        "reference": "8cb157af-d8d1-4466-894c-823460d94f77",
+        "email": "Asia.Weimann25@roq.tech",
+        "firstName": "Angela",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af1c2409-8a09-4f81-b537-90d4be9a601d",
+        "email": "Sanford41@roq.tech",
+        "firstName": "Conor",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45932755",
+        "tenantId": null
+      },
+      {
+        "reference": "4b15892c-b737-42eb-a197-03d381ab8af0",
+        "email": "Merl_Reynolds@roq.tech",
+        "firstName": "Ray",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54766607",
+        "tenantId": null
+      },
+      {
+        "reference": "a33adc06-ef8f-4565-a9d4-f7716c5468a0",
+        "email": "Birdie60@roq.tech",
+        "firstName": "Vincenzo",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/323.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "5b8657ef-95de-491a-b5b6-a4afedebde7d",
+        "action": "create",
+        "description": "User created",
+        "created_at": "2023-10-04T08:10:32.112Z",
+        "updated_at": "2023-10-04T09:57:11.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01187a73-1957-4e2e-9700-835096833791",
+        "action": "update",
+        "description": "Data updated",
+        "created_at": "2023-10-05T05:08:18.594Z",
+        "updated_at": "2023-10-04T20:52:41.626Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd712af2-578f-470e-bbd9-f4de62b9d1b5",
+        "action": "delete",
+        "description": "Record deleted",
+        "created_at": "2023-10-04T16:44:55.214Z",
+        "updated_at": "2023-10-05T03:34:38.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96a636f6-c474-471d-a20f-b39f938a2354",
+        "action": "login",
+        "description": "User logged in",
+        "created_at": "2023-10-04T22:50:56.278Z",
+        "updated_at": "2023-10-04T16:05:24.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbcc0e1b-a44c-49ac-8c6e-30187caee5c4",
+        "action": "logout",
+        "description": "User logged out",
+        "created_at": "2023-10-04T13:45:51.048Z",
+        "updated_at": "2023-10-04T15:31:30.461Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "cfc124d1-2ec1-4d81-aeb8-3ef1c775b192",
+        "name": "Titanic",
+        "created_at": "2023-10-04T12:53:19.517Z",
+        "updated_at": "2023-10-04T15:12:11.273Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ef729281-6657-4a18-97a4-5dc33fab58da",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T13:23:08.790Z",
+        "updated_at": "2023-10-04T15:37:10.519Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df7b5f86-a0b9-45e8-a5dc-75f325f4b386",
+        "name": "S.S. Enterprise",
+        "created_at": "2023-10-05T03:31:41.788Z",
+        "updated_at": "2023-10-04T10:21:43.150Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4fafdc17-0212-4944-b35d-057cf1c341fc",
+        "name": "Ocean Voyager",
+        "created_at": "2023-10-05T00:29:36.508Z",
+        "updated_at": "2023-10-04T18:26:05.990Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4049c21c-5f30-48da-b3b5-d68e1ab7e8db",
+        "name": "Majestic Sea",
+        "created_at": "2023-10-05T02:32:48.913Z",
+        "updated_at": "2023-10-04T07:23:35.487Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "0cbc5d90-a131-4e1b-8b2a-31424ce2eebd",
+        "departure_date": "2023-10-05T01:00:59.632Z",
+        "arrival_date": "2023-10-05T04:36:43.581Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T09:23:27.104Z",
+        "updated_at": "2023-10-04T12:19:39.770Z",
+        "ship_id": "cfc124d1-2ec1-4d81-aeb8-3ef1c775b192"
+      },
+      {
+        "id": "7614aafb-e866-4fd7-997b-6039bb85726b",
+        "departure_date": "2023-10-04T13:50:36.909Z",
+        "arrival_date": "2023-10-04T12:46:26.054Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-05T00:51:58.574Z",
+        "updated_at": "2023-10-05T01:51:17.025Z",
+        "ship_id": "cfc124d1-2ec1-4d81-aeb8-3ef1c775b192"
+      },
+      {
+        "id": "14db413e-8b3e-4268-a5d6-e20ceb7dff9f",
+        "departure_date": "2023-10-05T00:36:51.305Z",
+        "arrival_date": "2023-10-04T23:02:51.359Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-04T21:11:15.587Z",
+        "updated_at": "2023-10-04T19:15:50.940Z",
+        "ship_id": "cfc124d1-2ec1-4d81-aeb8-3ef1c775b192"
+      },
+      {
+        "id": "467850f6-171c-41cc-9dc1-12e65a10aae1",
+        "departure_date": "2023-10-04T11:51:43.201Z",
+        "arrival_date": "2023-10-04T20:36:29.587Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-05T01:30:55.389Z",
+        "updated_at": "2023-10-04T22:21:28.547Z",
+        "ship_id": "df7b5f86-a0b9-45e8-a5dc-75f325f4b386"
+      },
+      {
+        "id": "bc07cf11-1089-481d-9583-a5e0ae97677a",
+        "departure_date": "2023-10-05T01:43:05.646Z",
+        "arrival_date": "2023-10-05T01:24:24.845Z",
+        "departure_location": "Paris",
+        "arrival_location": "Rome",
+        "created_at": "2023-10-04T11:26:13.140Z",
+        "updated_at": "2023-10-04T17:49:47.056Z",
+        "ship_id": "cfc124d1-2ec1-4d81-aeb8-3ef1c775b192"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "c2a4d28d-6708-403c-a5fb-e5dfd186e32b",
+        "position": "Captain",
+        "start_date": "2023-10-05T04:45:20.730Z",
+        "end_date": "2023-10-04T23:45:42.326Z",
+        "created_at": "2023-10-04T07:31:59.692Z",
+        "updated_at": "2023-10-04T22:47:04.817Z",
+        "ship_id": "ef729281-6657-4a18-97a4-5dc33fab58da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3afb061-0cce-4279-8c7b-fc5c09c8473d",
+        "position": "First Officer",
+        "start_date": "2023-10-04T19:38:13.128Z",
+        "end_date": "2023-10-04T23:00:13.681Z",
+        "created_at": "2023-10-05T00:11:38.379Z",
+        "updated_at": "2023-10-04T07:24:40.149Z",
+        "ship_id": "df7b5f86-a0b9-45e8-a5dc-75f325f4b386",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04d42dbd-5222-4dac-96c5-9421d8e1b1b6",
+        "position": "Engineer",
+        "start_date": "2023-10-04T18:14:05.698Z",
+        "end_date": "2023-10-04T21:22:33.002Z",
+        "created_at": "2023-10-04T16:15:19.318Z",
+        "updated_at": "2023-10-04T09:50:51.884Z",
+        "ship_id": "df7b5f86-a0b9-45e8-a5dc-75f325f4b386",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7368c958-3439-47fc-8ae5-b94e0a670ab3",
+        "position": "Navigator",
+        "start_date": "2023-10-04T08:04:05.386Z",
+        "end_date": "2023-10-04T22:53:20.335Z",
+        "created_at": "2023-10-05T00:34:55.402Z",
+        "updated_at": "2023-10-04T10:54:25.221Z",
+        "ship_id": "4fafdc17-0212-4944-b35d-057cf1c341fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9dd24c4-6657-4af9-8f80-6bea08eee5fd",
+        "position": "Steward",
+        "start_date": "2023-10-05T06:18:44.186Z",
+        "end_date": "2023-10-04T10:32:11.316Z",
+        "created_at": "2023-10-04T16:22:14.266Z",
+        "updated_at": "2023-10-05T05:43:44.182Z",
+        "ship_id": "ef729281-6657-4a18-97a4-5dc33fab58da",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e57431ab-97d6-48d2-820a-bedb4438b76f",
+        "email": "Magali33@roq.tech",
+        "firstName": "Kyra",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d3d2ddb-aab5-4dcc-9fe8-53da6177c569",
+        "email": "Jorge.Rutherford3@roq.tech",
+        "firstName": "Torrey",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/516.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91dfc13e-f71b-4b7c-a505-3bbbc2a138c9",
+        "email": "Nathanael_Donnelly@roq.tech",
+        "firstName": "Denis",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52366402",
+        "tenantId": null
+      },
+      {
+        "reference": "94bdf47c-1a9d-4007-896a-6c9779762aee",
+        "email": "Francisco73@roq.tech",
+        "firstName": "Adrianna",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87312335",
+        "tenantId": null
+      },
+      {
+        "reference": "c3365cbe-c7bd-41ef-b676-f06bab378f41",
+        "email": "Nils.Schinner1@roq.tech",
+        "firstName": "Vidal",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/962.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "59bebaba-8f83-4248-8418-e7488918c90e",
+        "action": "create",
+        "description": "User created successfully",
+        "created_at": "2023-10-04T23:56:47.715Z",
+        "updated_at": "2023-10-05T03:13:39.459Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddfa8f62-a959-4231-9bb6-72cb246f6fdb",
+        "action": "update",
+        "description": "Data updated successfully",
+        "created_at": "2023-10-04T12:14:51.613Z",
+        "updated_at": "2023-10-05T06:59:58.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7de5dec2-8e19-41a8-82a1-e530bfd31c0c",
+        "action": "delete",
+        "description": "Record deleted successfully",
+        "created_at": "2023-10-04T18:09:30.334Z",
+        "updated_at": "2023-10-05T04:50:42.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40291226-a757-4f16-9086-8fa196262d84",
+        "action": "login",
+        "description": "User logged in",
+        "created_at": "2023-10-04T10:11:52.731Z",
+        "updated_at": "2023-10-04T23:23:57.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bbd9a73-3700-403d-aab9-cc81bd36e515",
+        "action": "logout",
+        "description": "User logged out",
+        "created_at": "2023-10-04T15:55:27.922Z",
+        "updated_at": "2023-10-04T11:58:23.478Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "d5fb11cb-defd-42e9-ab3e-91edab961d1b",
+        "name": "Titanic",
+        "created_at": "2023-10-04T16:24:38.146Z",
+        "updated_at": "2023-10-05T01:31:46.731Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "37e4c33d-5ae8-4111-95d8-570336714c3b",
+        "name": "Queen Mary",
+        "created_at": "2023-10-05T01:18:09.196Z",
+        "updated_at": "2023-10-05T00:49:30.558Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b3e53166-2d8f-4548-92ba-ef52b09da311",
+        "name": "Black Pearl",
+        "created_at": "2023-10-04T10:33:01.005Z",
+        "updated_at": "2023-10-05T07:01:48.132Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee46534e-7007-46c7-80d1-66ec0c8ab44d",
+        "name": "Endeavour",
+        "created_at": "2023-10-05T02:01:21.506Z",
+        "updated_at": "2023-10-04T14:22:57.823Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e5959b7-a8e0-4555-b539-c3962734ad18",
+        "name": "Serenity",
+        "created_at": "2023-10-04T18:37:22.816Z",
+        "updated_at": "2023-10-04T19:13:16.051Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "209aa0b4-9e76-419c-b651-948aaf2a963f",
+        "departure_date": "2023-10-04T23:19:05.928Z",
+        "arrival_date": "2023-10-05T00:52:40.954Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-04T18:31:23.088Z",
+        "updated_at": "2023-10-04T09:39:57.122Z",
+        "ship_id": "b3e53166-2d8f-4548-92ba-ef52b09da311"
+      },
+      {
+        "id": "06ec3864-f9f6-4f82-8bfd-b971f2eb05fe",
+        "departure_date": "2023-10-04T19:26:23.353Z",
+        "arrival_date": "2023-10-04T12:16:08.779Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-04T19:46:47.233Z",
+        "updated_at": "2023-10-05T04:33:13.756Z",
+        "ship_id": "b3e53166-2d8f-4548-92ba-ef52b09da311"
+      },
+      {
+        "id": "cef5e52b-f891-4239-8854-1e87e9922080",
+        "departure_date": "2023-10-04T21:43:10.613Z",
+        "arrival_date": "2023-10-04T23:23:57.902Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-04T22:30:58.750Z",
+        "updated_at": "2023-10-04T07:56:24.095Z",
+        "ship_id": "37e4c33d-5ae8-4111-95d8-570336714c3b"
+      },
+      {
+        "id": "6b6fdd62-30ec-4008-a833-401278043e55",
+        "departure_date": "2023-10-05T02:39:57.125Z",
+        "arrival_date": "2023-10-04T09:57:55.494Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-04T13:56:48.162Z",
+        "updated_at": "2023-10-04T16:09:48.939Z",
+        "ship_id": "37e4c33d-5ae8-4111-95d8-570336714c3b"
+      },
+      {
+        "id": "a58b92b1-dfed-4c02-9ce6-473abf6f787f",
+        "departure_date": "2023-10-04T21:40:22.333Z",
+        "arrival_date": "2023-10-04T19:06:07.397Z",
+        "departure_location": "Paris",
+        "arrival_location": "Mumbai",
+        "created_at": "2023-10-04T18:43:12.618Z",
+        "updated_at": "2023-10-04T16:20:37.990Z",
+        "ship_id": "b3e53166-2d8f-4548-92ba-ef52b09da311"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "66839438-1338-4bb9-8d65-c44db74d77b8",
+        "position": "Captain",
+        "start_date": "2023-10-04T15:15:58.149Z",
+        "end_date": "2023-10-04T23:49:47.767Z",
+        "created_at": "2023-10-04T21:34:41.798Z",
+        "updated_at": "2023-10-04T08:10:35.594Z",
+        "ship_id": "ee46534e-7007-46c7-80d1-66ec0c8ab44d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94fc87f3-1975-418d-900b-52d8d530eb13",
+        "position": "First Officer",
+        "start_date": "2023-10-04T11:01:56.883Z",
+        "end_date": "2023-10-04T21:42:18.096Z",
+        "created_at": "2023-10-04T21:16:42.375Z",
+        "updated_at": "2023-10-04T16:01:25.915Z",
+        "ship_id": "ee46534e-7007-46c7-80d1-66ec0c8ab44d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22fc6235-8610-4719-8bd6-16862a655a4e",
+        "position": "Engineer",
+        "start_date": "2023-10-04T08:04:35.103Z",
+        "end_date": "2023-10-04T17:44:19.120Z",
+        "created_at": "2023-10-04T18:31:12.325Z",
+        "updated_at": "2023-10-04T21:40:13.026Z",
+        "ship_id": "37e4c33d-5ae8-4111-95d8-570336714c3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3d395ef-7074-4194-88e0-20bd97ec400c",
+        "position": "Navigator",
+        "start_date": "2023-10-05T05:57:24.432Z",
+        "end_date": "2023-10-04T09:00:53.649Z",
+        "created_at": "2023-10-04T12:22:34.752Z",
+        "updated_at": "2023-10-04T15:03:57.058Z",
+        "ship_id": "8e5959b7-a8e0-4555-b539-c3962734ad18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7acde18e-e472-4539-ad78-33b6f59e10f7",
+        "position": "Steward",
+        "start_date": "2023-10-04T10:14:45.375Z",
+        "end_date": "2023-10-05T03:00:16.291Z",
+        "created_at": "2023-10-04T20:15:17.229Z",
+        "updated_at": "2023-10-04T07:52:27.508Z",
+        "ship_id": "d5fb11cb-defd-42e9-ab3e-91edab961d1b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "168cdb08-2172-4a54-b8a7-a9a97fd85915",
+        "email": "Andy_Hoppe50@roq.tech",
+        "firstName": "Lula",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa5f5d78-25c4-4577-8334-5ddabdbda02c",
+        "email": "Imogene33@roq.tech",
+        "firstName": "Gwendolyn",
+        "lastName": "Lebsack-Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48205638",
+        "tenantId": null
+      },
+      {
+        "reference": "8f4afaf6-8ece-4e3c-946c-df6b645ad091",
+        "email": "Jeromy86@roq.tech",
+        "firstName": "Stephania",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1046.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8caa8f94-5991-4a56-90bd-1a62c1d5c9f6",
+        "email": "Gilberto73@roq.tech",
+        "firstName": "Geraldine",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/321.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1f417779-c648-4520-ba1e-5fad919c9898",
+        "email": "Marielle_Dicki@roq.tech",
+        "firstName": "Cleora",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6991867",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "log": [
+      {
+        "id": "f19a0307-7a19-4e87-a592-0d78209b778a",
+        "action": "create",
+        "description": "User created successfully",
+        "created_at": "2023-10-05T05:35:24.423Z",
+        "updated_at": "2023-10-05T00:03:22.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab608116-5d61-4e6d-a83b-16e84c98cde1",
+        "action": "update",
+        "description": "Data updated successfully",
+        "created_at": "2023-10-04T16:00:45.191Z",
+        "updated_at": "2023-10-05T05:10:24.816Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff08d8cb-2565-4871-8b32-73851c465db7",
+        "action": "delete",
+        "description": "Record deleted successfully",
+        "created_at": "2023-10-04T13:39:03.010Z",
+        "updated_at": "2023-10-04T10:18:45.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d30cb1c-4f12-4999-8a17-bdd16c878f57",
+        "action": "login",
+        "description": "User logged in",
+        "created_at": "2023-10-04T18:08:16.949Z",
+        "updated_at": "2023-10-05T02:28:39.352Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4802c37-a5b2-4cbb-ae1f-6fe8a8be7364",
+        "action": "logout",
+        "description": "User logged out",
+        "created_at": "2023-10-04T23:17:06.418Z",
+        "updated_at": "2023-10-04T23:21:45.631Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ship": [
+      {
+        "id": "43fe4ad5-1b92-455f-bf93-6e2931ed9f23",
+        "name": "Titanic",
+        "created_at": "2023-10-05T06:40:08.243Z",
+        "updated_at": "2023-10-04T09:34:03.286Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e166eb0a-7763-40af-8b35-a34ab5750cdb",
+        "name": "Queen Mary",
+        "created_at": "2023-10-04T23:02:01.945Z",
+        "updated_at": "2023-10-04T07:31:29.768Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb63cc4c-a9b1-40c1-ad01-de87fc295227",
+        "name": "Black Pearl",
+        "created_at": "2023-10-04T21:14:43.374Z",
+        "updated_at": "2023-10-04T08:34:10.602Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5ded5d2-e7cd-4759-92ce-1b3472b79c09",
+        "name": "Endeavour",
+        "created_at": "2023-10-04T18:18:23.170Z",
+        "updated_at": "2023-10-04T19:18:07.380Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1062d4f7-96a2-454a-83b1-41b7a0fe61e5",
+        "name": "Serenity",
+        "created_at": "2023-10-05T04:26:46.735Z",
+        "updated_at": "2023-10-04T14:36:31.166Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "9d61f388-bff1-44f7-ac61-b80f91307540",
+        "departure_date": "2023-10-04T10:34:26.758Z",
+        "arrival_date": "2023-10-04T11:30:02.623Z",
+        "departure_location": "New York",
+        "arrival_location": "Los Angeles",
+        "created_at": "2023-10-05T06:51:16.406Z",
+        "updated_at": "2023-10-04T14:44:48.827Z",
+        "ship_id": "43fe4ad5-1b92-455f-bf93-6e2931ed9f23"
+      },
+      {
+        "id": "0c55653d-0a52-4c1a-ae8b-b21d1a87b4d8",
+        "departure_date": "2023-10-04T12:17:05.772Z",
+        "arrival_date": "2023-10-04T22:23:42.560Z",
+        "departure_location": "London",
+        "arrival_location": "Dubai",
+        "created_at": "2023-10-04T12:09:00.089Z",
+        "updated_at": "2023-10-05T06:46:22.837Z",
+        "ship_id": "43fe4ad5-1b92-455f-bf93-6e2931ed9f23"
+      },
+      {
+        "id": "88cffaf5-cb9e-4a7b-adf8-6f2bcbc3054a",
+        "departure_date": "2023-10-04T08:25:49.930Z",
+        "arrival_date": "2023-10-04T23:46:48.864Z",
+        "departure_location": "Tokyo",
+        "arrival_location": "Singapore",
+        "created_at": "2023-10-05T00:31:26.921Z",
+        "updated_at": "2023-10-04T07:56:04.582Z",
+        "ship_id": "43fe4ad5-1b92-455f-bf93-6e2931ed9f23"
+      },
+      {
+        "id": "b404a4d0-976a-40fd-acf4-fa4553a0ee43",
+        "departure_date": "2023-10-04T13:34:49.973Z",
+        "arrival_date": "2023-10-04T16:38:02.269Z",
+        "departure_location": "Sydney",
+        "arrival_location": "Toronto",
+        "created_at": "2023-10-04T19:35:49.607Z",
+        "updated_at": "2023-10-04T16:21:17.638Z",
+        "ship_id": "1062d4f7-96a2-454a-83b1-41b7a0fe61e5"
+      },
+      {
+        "id": "5bf0e81f-a1b3-46a5-ab6d-c63c91c64b31",
+        "departure_date": "2023-10-05T07:18:23.940Z",
+        "arrival_date": "2023-10-05T00:31:03.073Z",
+        "departure_location": "Paris",
+        "arrival_location": "Rome",
+        "created_at": "2023-10-04T17:06:14.824Z",
+        "updated_at": "2023-10-04T21:12:27.183Z",
+        "ship_id": "bb63cc4c-a9b1-40c1-ad01-de87fc295227"
+      }
+    ],
+    "crew_member": [
+      {
+        "id": "0e8a9e57-53db-4094-807a-52ac43da3450",
+        "position": "Captain",
+        "start_date": "2023-10-05T05:18:20.964Z",
+        "end_date": "2023-10-04T11:40:34.698Z",
+        "created_at": "2023-10-04T17:04:24.838Z",
+        "updated_at": "2023-10-04T20:51:04.725Z",
+        "ship_id": "e166eb0a-7763-40af-8b35-a34ab5750cdb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5560bfa9-dcaa-4254-8f89-6bf6e243b47d",
+        "position": "First Officer",
+        "start_date": "2023-10-04T13:24:10.635Z",
+        "end_date": "2023-10-05T01:17:31.658Z",
+        "created_at": "2023-10-05T07:19:38.156Z",
+        "updated_at": "2023-10-05T06:41:10.300Z",
+        "ship_id": "bb63cc4c-a9b1-40c1-ad01-de87fc295227",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d385e12-41ab-45e1-a500-9c8d27215ad8",
+        "position": "Engineer",
+        "start_date": "2023-10-04T14:20:49.588Z",
+        "end_date": "2023-10-04T20:20:52.793Z",
+        "created_at": "2023-10-04T18:29:28.237Z",
+        "updated_at": "2023-10-05T04:52:06.532Z",
+        "ship_id": "43fe4ad5-1b92-455f-bf93-6e2931ed9f23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17f5369e-6b98-4e15-84f1-969ac27c0714",
+        "position": "Navigator",
+        "start_date": "2023-10-05T03:41:05.620Z",
+        "end_date": "2023-10-04T14:13:00.088Z",
+        "created_at": "2023-10-04T23:33:31.936Z",
+        "updated_at": "2023-10-05T07:15:45.489Z",
+        "ship_id": "1062d4f7-96a2-454a-83b1-41b7a0fe61e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4077de37-6d9d-4baf-b776-de41674194bf",
+        "position": "Steward",
+        "start_date": "2023-10-05T02:52:41.190Z",
+        "end_date": "2023-10-05T01:44:13.875Z",
+        "created_at": "2023-10-05T03:47:49.561Z",
+        "updated_at": "2023-10-04T10:22:52.972Z",
+        "ship_id": "e166eb0a-7763-40af-8b35-a34ab5750cdb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "10c324ec-3b9c-4f66-b5b2-d423504c0cf9",
+        "email": "Phoebe58@roq.tech",
+        "firstName": "Nathen",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87eeeb7c-0592-4d7a-bbf9-9708d8ca5667",
+        "email": "Mariana46@roq.tech",
+        "firstName": "Edward",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78183830",
+        "tenantId": null
+      },
+      {
+        "reference": "29a45c96-e62b-4248-a7b9-777bc45281f4",
+        "email": "Malvina22@roq.tech",
+        "firstName": "Lois",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90569887",
+        "tenantId": null
+      },
+      {
+        "reference": "df74dbb6-6d16-4361-b084-b2e7d47ef531",
+        "email": "Jabari64@roq.tech",
+        "firstName": "Lloyd",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/651.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "078b047c-b796-42d9-8960-efa16e1b7158",
+        "email": "Emie.Paucek@roq.tech",
+        "firstName": "Mylene",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8735852",
+        "tenantId": null
+      }
+    ]
+  }
+]
